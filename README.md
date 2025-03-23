@@ -1,15 +1,15 @@
 # 介紹
-這是一個使用 `tkinter` 製作的簡易 GUI 工具，目的是讓你可以透過視覺介面選擇 `.py` 檔案並直接執行它。適合用來快速測試小型 Python 程式，不必每次都打開終端機。
+這是一個使用 `tkinter` 製作的簡易工具，使用者可以透過GUI介面執行 `.py` 檔案。適合用來快速測試小型 ABM 程式，不必每次都打開終端機。
 
 # 資料夾架構
 abm-selecter/
-├── app.py                      # tkinter GUI 主程式
-├── scripts/                     # 存放 .py 檔案
-├── output/                    # 存放 .py 的圖片結果
-├── Dockerfile
-├── requirements.txt    # Docker所需的pip模組列表
-└── README.md
-└── Start.bat                   # 執行
++ app.py                      # tkinter GUI 主程式
++ scripts/                     # 存放 .py 檔案
++ output/                    # 存放 .py 的圖片結果
++ Dockerfile
++ requirements.txt    # Docker所需的pip模組列表
++ README.md
++ Start.bat                   # 執行
 
 # 執行步驟
 1. 確保已經執行 Start.bat，python_runner container 正在跑
